@@ -1,0 +1,425 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /* GENERAL SETTINGS */
+ body
+ {
+     font-family: 'Clarkson','Helvetica Neue',Helvetica,Arial,sans-serif;
+     line-height: 1.4rem;
+     text-align: center;
+     display: grid;
+     grid-template-rows: auto 1fr auto;
+     min-height: 100vh;
+ }
+ 
+ header
+ {
+     background-color: #f9f9f9;
+ }
+ header > nav > ul > li
+ {
+     display: inline-block;
+     padding-left: 25px;
+
+
+ }
+
+ header > nav
+ {
+     padding-left: 900px;
+     padding-bottom: 25px;
+     
+
+ }
+
+ header > div
+ {
+     padding: 25px 1000px 0 0;
+ }
+
+ a
+ {
+     text-decoration: none;
+     color: #000000;
+ }
+
+ header h2
+ {
+     font-size: 2.0rem;
+     font-style: normal;
+     font-weight: normal;
+    
+ }
+
+ /* HOMEPAGE SETTINGS */
+
+ main
+ {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     background-color: #f9f9f9;
+     text-align: left;
+     padding-left: 50px;
+     
+ }
+main input
+{
+    padding: 15px 30px;
+    
+}
+ main > div > h1
+ {
+     font-size: 3.8rem;
+     line-height: 1.4;
+     padding-top: 50px ;
+     font-style: normal;
+     font-weight: normal;
+     padding-right: 180px;
+
+ }
+
+ main > div > p
+ {
+     font-size: 1.4rem;
+     line-height: 1.9rem;
+     text-align: left;
+     padding-right: 210px;
+    
+ }
+
+ main img
+ {
+     width: 600px;
+     padding: 100px 25px;
+ }
+
+ #mainbutton
+ {
+    border: solid #000000;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+
+ }
+
+ #mainbutton:hover
+ {
+    background-color: #000000;
+    color: #ffffff;
+ }
+
+
+ #thechildofjazz
+{
+    background-color: #000000;
+    color: #ffffff;
+    height: 65vh;
+    font-size: 2.7rem;
+    line-height: 2.9rem;
+    padding: 100px 190px;
+    font-style: normal;
+}
+
+#thechildofjazz > a
+{
+    border: solid #ffffff;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    color: #ffffff;
+}
+
+#thechildofjazz >   a:hover
+{
+    color: #000000;
+    background-color: gray;
+}
+
+#tour
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+   
+}
+
+#rightgrid
+{
+    padding-top: 60px;
+    text-align: left;
+    margin-left: 50px;
+
+}
+
+#rightgrid > h2
+{
+    font-size: 2.9rem;
+    padding: 60px 0;
+    font-weight: normal;
+  
+    
+}
+
+#rightgrid > p
+{
+    line-height: 1.8rem;
+    padding: 0 120px 30px  0;
+}
+
+#rightgrid > a
+{
+    border: solid #000000;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+   
+
+}
+
+#rightgrid > a:hover
+{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+#contact
+{
+    height: 65vh;
+    
+    
+}
+#contact p
+{
+    padding-top: 140px;
+}
+#contact  a
+{
+    color:#ffffff;
+    text-decoration: underline;
+    font-size: 3.8rem;
+    font-weight: bold;
+}
+
+#contact a:hover
+{
+    opacity: 0.7;
+}
+
+#overlay
+{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 90%;
+    background-Image: url(../img/photo3.jpg);
+    background-repeat: no-repeat;
+    Background-size: cover;
+    background-position: center center;  
+    opacity: 0.9;
+}
+
+footer
+{
+    background-color: #f9f9f9;
+    height: 51vh;
+    margin-top: 25px;
+    
+
+}
+
+footer input
+{
+    padding: 15px 40px;
+    
+}
+
+footer > h3
+{
+    display: inline-block;
+    text-decoration: underline;
+    padding: 90px 25px 50px 25px;
+
+}
+footer p
+{
+    padding: 50px 0px;
+}
+
+footer > p > a
+{
+    text-decoration: underline;
+}
+
+#footerbutton
+
+{
+    border: solid #000000;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+
+
+
+
+}
+
+#footerbutton:hover
+{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* PHOTOS PAGE */
+.notmainheader
+{
+    background-color: #ffffff;
+}
+
+#photosgrid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#photosgrid img
+{
+    width: 600px;
+}
+
+
+/* CONTACT PAGE */
+
+#contactbody
+{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+#contactform 
+{
+    height: 120vh;
+    line-height: 1.7rem;
+  
+}
+
+#contactform > div
+{
+    padding: 50px 400px 15px 400px;
+    text-align: left;
+
+}
+
+#contactform h2
+{
+    font-size: 2.8rem;
+    padding:0 0 50px 0;
+    font-weight: normal;
+}
+#contactform > h3
+{
+    padding: 20px 800px 50px 400px;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+
+#contactform form
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    padding: 0 400px ;
+    text-align: left;
+    
+
+}
+
+#contactform input
+{
+    padding: 10px 0;
+    
+}
+
+#contactbutton
+{
+    border: solid #000000;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    margin: 0 500px 0 0;
+}
+
+#contactbutton:hover
+{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+@media (max-width:575.95px)
+{
+  
+
+}
+@media (min-width: 576px) and (max-width: 1000.00px) 
+{
+    body
+    { width:100%;}
+
+    header h2
+    {line-height: 1.9rem; }
+
+    main
+    {grid-template-columns: 1fr; 
+        
+     
+        padding-left: 300px;
+    }
+       
+        
+
+    main p
+    {padding-left: 100px;}
+
+    #mainbutton
+    {margin-right: 300px ;}
+
+    main img
+    {margin: 0 auto}
+  
+
+ 
+}
+@media (min-width: 1000.00px)
+{
+    
+
+}
